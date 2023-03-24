@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #b4b3b3;
+}
+.container{
+    max-width: 1300px;
+}
+.menu-1{
+    background-color: #363636;   
+}
+.menu-1 a{
+    color: rgb(255, 255, 255);
+}
+.menu-1 p{
+    text-align: right;
+    margin-bottom: 0;
+    padding: 8px 16px;
+    padding-left: 100px;
+    color: #fff;
+}
+.title-h1{
+    font-size: 60px;
+}
+.shop-item{
+    height: 357px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+      
+}
+
+.shop-item01{
+    background-image: url(../image/hodovoi.jpg);
+}
+.shop-item02{
+    background-image: url(../image/dvigatel.jpg);
+}
+.shop-item03{
+    background-image: url(../image/diagnost.jpg);
+}
+.text-info{
+    position: absolute;
+    bottom: 0;
+    left: .75rem;
+    right: 0;
+    width: 100%;
+    background-color: #363636;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text-info .col-4{
+    text-align: right;
+    padding-right: 2px;
+}
+.text-info .col-8{
+    padding-right: 0;
+}
+
+.text-info h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.text-info p {
+    font-size: 15px;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 1px;
+    padding: 5px 16px;
+    margin-bottom: 0;
+    
+}
+
